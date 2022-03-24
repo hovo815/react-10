@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    min-height: 1000px;
+    height: 100%;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgb(94, 7, 86);
+    text-align: center;
+    padding-top: 400px;
+}
+
+.home, .members{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(212, 54, 178);
+}
+
+.home:hover, .members:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(212, 54, 178)
+}
+
